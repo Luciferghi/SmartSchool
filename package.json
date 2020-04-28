@@ -1,0 +1,38 @@
+{
+  "name": "nitschool",
+  "version": "0.0.0",
+  "description": "No description",
+  "author": null,
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "devDependencies": {
+    "babel-preset-expo": "^7.0.0"
+  },
+  "scripts": {
+    "start": "expo start",
+    "eject": "expo eject",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "0.1.6",
+    "@react-navigation/drawer": "^5.5.0",
+    "@react-navigation/material-bottom-tabs": "^5.1.9",
+    "@react-navigation/native": "^5.1.6",
+    "@react-navigation/stack": "^5.2.11",
+    "expo": "^37.0.0",
+    "react": "16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+    "react-native-elements": "^1.2.7",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-paper": "^3.8.0",
+    "react-native-reanimated": "~1.7.0",
+    "react-native-router-flux": "latest",
+    "react-native-safe-area-context": "0.7.3",
+    "react-native-screens": "~2.2.0",
+    "react-native-status-bar-height": "latest",
+    "react-native-vector-icons": "latest",
+    "react-navigation": "^4.3.7"
+  }
+}

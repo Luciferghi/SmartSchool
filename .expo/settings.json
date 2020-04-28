@@ -1,0 +1,8 @@
+{
+  "urlRandomness": "k8-mb9",
+  "hostType": "lan",
+  "lanType": "ip",
+  "dev": true,
+  "minify": false,
+  "https": true
+}

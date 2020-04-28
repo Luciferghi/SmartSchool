@@ -1,0 +1,10 @@
+{
+  "devToolsPort": 19002,
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 10412,
+  "expoServerNgrokUrl": "https://k8-mb9.luciferg0116.nitschool.exp.direct",
+  "packagerNgrokUrl": "https://packager.k8-mb9.luciferg0116.nitschool.exp.direct",
+  "ngrokPid": 11400,
+  "webpackServerPort": null
+}
