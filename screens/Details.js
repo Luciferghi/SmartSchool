@@ -3,7 +3,9 @@ import { Button, View, Text, StyleSheet } from 'react-native';
 import { Header } from 'react-native-elements';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
-import Dashboard from './Dashboard'
+import Dashboard from './Dashboard';
+import {DrawerContent} from './DrawerContent';
+
 
 function Details({ navigation }) {
   return (
@@ -22,9 +24,10 @@ const Drawer = createDrawerNavigator();
 
 export default function Detail() {
   return (
-      <Drawer.Navigator initialRouteName="Details">
-        <Drawer.Screen name="Dashboard" component={Dashboard} />
+      <Drawer.Navigator drawerContent = { props => <DrawerContent { ...props } />}>
         <Drawer.Screen name="Details" component={Details} />
+        <Drawer.Screen name="Dashboard" component={Dashboard} />
+
       </Drawer.Navigator>
   );
 }
